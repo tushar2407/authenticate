@@ -138,3 +138,4 @@ STATIC_URL = '/static/'
 # for core app
 LOGIN_REDIRECT_URL='home'
 LOGIN_URL='login'
+LOGOUT_REDIRECT_URL="login"

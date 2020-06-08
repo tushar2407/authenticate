@@ -12,5 +12,6 @@
     - login
     - total authentication 
     - using inbuilt userCreation form
-    - using inbuilt url for login form
+    - using inbuilt url for login form (by default name is login)
+    - using inbuilt url for logout form (by default name is logout)
     - change of login_redirect_url in settings

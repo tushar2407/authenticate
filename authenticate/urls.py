@@ -21,5 +21,5 @@ urlpatterns = [
     path('core/', views.home, name="home"),
     path('core/signup/', views.signup, name="signup"),
     # for login
-    path("core/accounts/", include("django.contrib.auth.urls"), name="login")
+    path("core/accounts/", include("django.contrib.auth.urls")),
 ]

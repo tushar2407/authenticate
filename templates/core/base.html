@@ -9,7 +9,10 @@
     <h1>Core app</h1>
     <a href="{% url 'home' %}">Home </a>/
     <a href="{% url 'signup' %}">Signup </a>/
-    <a href="{% url 'login' %}">login </a>
+    <a href="{% url 'login' %}">login </a>/
+    {% if user.is_authenticated %}
+        <a href="{% url 'logout' %}">logout</a>
+    {%endif%}
     <hr style="color:black">
     {%block content%}
     {%endblock%}
