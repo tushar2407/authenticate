@@ -11,6 +11,7 @@
     <a href="{% url 'signup' %}">Signup </a>/
     <a href="{% url 'login' %}">login </a>/
     {% if user.is_authenticated %}
+        <a href="{% url 'password_change' %}">Password Change</a>/
         <a href="{% url 'logout' %}">logout</a>
     {%endif%}
     <hr style="color:black">

@@ -14,4 +14,5 @@
     - using inbuilt userCreation form
     - using inbuilt url for login form (by default name is login)
     - using inbuilt url for logout form (by default name is logout)
+    - using inbuilt url for password change form (by default name is password_change)
     - change of login_redirect_url in settings
