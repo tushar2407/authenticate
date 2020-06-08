@@ -132,5 +132,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
-LOGIN_REDIRECT_URL='/auth=1'
-LOGIN_URL='/'
+# for main app
+#   LOGIN_REDIRECT_URL='/auth=1'
+#   LOGIN_URL='core/'
+# for core app
+LOGIN_REDIRECT_URL='home'
+LOGIN_URL='login'

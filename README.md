@@ -2,6 +2,7 @@
 
 ## Main app
     - a simple login app for a user
+    - change of login)redirect_url in settings 
 
 ## next app
     - extended user model
@@ -12,3 +13,4 @@
     - total authentication 
     - using inbuilt userCreation form
     - using inbuilt url for login form
+    - change of login_redirect_url in settings
