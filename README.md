@@ -15,4 +15,6 @@
     - using inbuilt url for login form (by default name is login)
     - using inbuilt url for logout form (by default name is logout)
     - using inbuilt url for password change form (by default name is password_change)
+    - using inbuilt url for password rest by Console Backend(email_backend)
     - change of login_redirect_url in settings
+    - python manage.py sendtestemail visitor@example.com -> testing email backend
