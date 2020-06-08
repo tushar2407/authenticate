@@ -18,3 +18,4 @@
     - using inbuilt url for password rest by Console Backend(email_backend)
     - change of login_redirect_url in settings
     - python manage.py sendtestemail visitor@example.com -> testing email backend
+    - secret page using mixins in class based view ( not implemented on page rather in backend)

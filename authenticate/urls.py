@@ -20,6 +20,8 @@ urlpatterns = [
     path('auth/',getAuthToken.as_view() ),
     path('core/', views.home, name="home"),
     path('core/signup/', views.signup, name="signup"),
-    # for login
+    # for login,  password_change, passwordr_eset
     path("core/accounts/", include("django.contrib.auth.urls")),
+    # secret page
+    path('core/secret/', views.secret_page, name="secret_page"),
 ]
