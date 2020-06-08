@@ -10,10 +10,15 @@ router.register('users',UserViewSet)
 # that ends here
 # after th euser extend commit
 from next.views import getAuthToken
+# core app
+from core import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('main.urls')),
     path('next/', include('next.urls')),
     path("api/", include(router.urls)),
     path('auth/',getAuthToken.as_view() ),
+    path('core/', views.home, name="home"),
+    path('core/signup/', views.signup, name="signup"),
+    path("core/accounts/", include("django.contrib.auth.urls"))
 ]

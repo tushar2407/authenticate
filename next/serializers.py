@@ -24,3 +24,5 @@ class UserSerializer(serializers.ModelSerializer):
         user.save()
         Token.objects.create(user=user) ## creating token as soon as a new user is created
         return user 
+
+        
